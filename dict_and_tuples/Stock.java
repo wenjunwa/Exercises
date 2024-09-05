@@ -87,7 +87,7 @@ public class Stock {
         }
     }
     
-        public static void main(String[] args) { 
+    public static void main(String[] args) { 
         Stock sto = new Stock();
         initial_stock(sto);
         user_add(sto);
