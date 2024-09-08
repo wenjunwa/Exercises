@@ -1,0 +1,31 @@
+Interface: 
+completely separate interface(what to implement) fromt impletation(how to implement).
+	an interface can be implemented by any number of classes. 
+	a class can implement multiple number of interfaces, 
+	a class can extends a parent calss while can also implement multiple interfaces at the same time.
+
+Inference referrence variables: 
+	create a variable of an interface type
+	this variable can inferrence the objects that implement that interface
+	this variable can only call the methods of the object that is defined in the interface
+
+Variables can be declared in an interface:
+	variables in an interface is static, they can be call by interface name
+	variables in an interface is public, any class that implement that variable can access it
+	variables in an interface is finnal, which can not be changed.
+
+An interface can be extended:
+	body of the methods can be defined inside of the interface
+	the classes that implement the sub_interface of an interface can access the variable of the (parent) interface
+
+default methods: 
+	the body of a method of an interface can be implemented in the interface
+	an object of a class that implements the interface can call the default method.
+	an class can override the methods of the interface it implements
+
+static method in an interface:
+	we can call static methods of an interface without creating objects of classes that implement the interface
+
+private methods within interface:
+	an private method within an interface can be call by an default method of the interface
+	an object of class that implement an interface indirectly invoke an private method of the interface if the private method is called in an default method of the interface.
