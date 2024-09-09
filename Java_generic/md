@@ -1,0 +1,16 @@
+Generics: 
+	to create one class that takes in diffrent types of variable. 
+	This avoids creating duplicated code that did the same thing. the only thing that changes is the variable type they operate on.
+	the variable that passed in as a generic type has to be an object type.
+	can not be an primitive type(int, double, char)
+	a generic class can operate on multiple variable type
+
+Benefit:
+generics: allowed us to utilize code reusability. (we don't need a class for each variable type that we need to use)
+
+bounded types bounded generic type to something.
+	eg. <T extends Number>
+
+wildcard: <?> unbounded wildcard
+	  <? extends T> bounded wildcard
+	  <? super T> lower bouned wildcard
